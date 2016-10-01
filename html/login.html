@@ -11,15 +11,14 @@
     <meta name="keywords" content="bike,rental,skopje,bitola,ohrid,codefest">
     <meta name="author" content="CODEFENCERS">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/bundle-libraries.css">
+    <link rel="stylesheet" href="dist/css/bundle.css">
 
 </head>
 
 <body>
-  <!------------------------------------NAVBAR-------------------------------------------->
-    <div id="mySidenav" class="sidenav">
+    <!------------------------------------NAVBAR-------------------------------------------->
+    <!--<div id="mySidenav" class="sidenav">
         <div class="container">
             <div class="row">
                 <div class="col-xs-6">
@@ -63,36 +62,50 @@
         <div class="col-sx-12 col-md-12 col-lg-12">
             <button class="btn btn-menu" id="open"><i class="fa fa-bars fa-lg"></i></button>
         </div>
-    </div>
-<!------------------------------------------- END OF NAVIGATION BAR AND MENU BUTTON --------------------------------->
-    
-    
-    <div class="container main">
-        <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 col-md-offset-3 col-lg-offset-4 col-xl-offset-4">
-                <h4 class="login-header">Log in</h4>
+    </div>-->
+    <!------------------------------------------- END OF NAVIGATION BAR AND MENU BUTTON --------------------------------->
 
-                <div class="form-group">
-                    <input type="email" placeholder="Enter your email" class="form-control" id="email">
-                </div>
-                
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
-                </div>
-                
-                <button type="submit" class="btn btn-success btn-block">Log in</button>
-                <div class="row login-footer">
-                    <div class="col-sm-6 col-xs-6">
-                        <a id="link-create-account" href="sign-up.html">Create account</a>
-                    </div>
-                    <div class="col-sm-6 col-xs-6">
-                        <a id="link-forgot-password" href="">Forgot password?</a>
-                    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-3">
+                <div class="well form-def">
+                    <form>
+                        <fieldset>
+                            <legend class="form-def__title">
+                                <h2>Log in</h2>
+                            </legend>
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="focusedInput2">Enter your email</label>
+                                <input class="form-control" id="focusedInput2" type="email">
+                                <p class="help-block">You should really write something here</p>
+                            </div>
+
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="focusedInput2">Password</label>
+                                <input class="form-control" id="focusedInput2" type="password">
+                                <p class="help-block">You should really write something here</p>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-raised btn-success btn-block btn-lg">Log in</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="login-footer">
+                            <div class="col-xs-6">
+                                <a id="link-create-account" href="sign-up.html">Create account</a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a id="link-forgot-password" href="">Forgot password?</a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-
     <!-----------------------------FOOTER---------------------------------->
     <footer class="footer">
         <div class="container-fluid">
@@ -120,8 +133,10 @@
     </footer>
 
 
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!--JQUERY/BOOTSTRAP-->
+    <script src="dist/js/bundle.libraries.js"></script>
+    <script src="dist/js/bundle.js"></script>
+    <!--Main Script-->
     <script src="js/main.js"></script>
 </body>
 

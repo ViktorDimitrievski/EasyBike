@@ -1,0 +1,22 @@
+.form-def {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+
+    margin-top: 25%;
+    margin-bottom: 25% !important;
+    &__title {
+        text-align: center;
+    }
+}
+
+#link-forgot-password {
+    text-align: right;
+    float: right;
+}
+
+#link-create-account {
+    text-align: left;
+    float: left;
+}

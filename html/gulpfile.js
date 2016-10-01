@@ -18,7 +18,7 @@ gulp.task("default", ["build"], function () { });
 gulp.task("build", function () {
     runSequence(
         "clean",
-        ["styles", "styles-libraries", "scripts-libraries", "scripts", "fonts"],
+        ["styles", "styles-libraries", "scripts-libraries", "scripts", "fonts", "images"],
         function () {
             console.log("**** Success ******");
         });
@@ -95,4 +95,9 @@ gulp.task("clean", function (cb) {
         config.path.dist + "**/*.css"
     ];
     return del(files, cb);
+});
+gulp.task("images", function() {
+    return gulp
+        .src(config.path.src + "img/**/*")
+        .pipe(gulp.dest(config.path.dist + "/img"));  
 });
