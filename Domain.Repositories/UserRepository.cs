@@ -8,9 +8,14 @@ using System.Threading.Tasks;
 
 namespace Domain.Repositories
 {
-    public class UserRepository : IBaseRepository<ApplicationUser> : IUserRepository
+    public class UserRepository : IBaseRepository<ApplicationUser>, IUserRepository
     {
         public ApplicationUser Create(ApplicationUser item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Delete(string id)
         {
             throw new NotImplementedException();
         }
@@ -21,6 +26,11 @@ namespace Domain.Repositories
         }
 
         public List<ApplicationUser> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ApplicationUser GetById(string id)
         {
             throw new NotImplementedException();
         }

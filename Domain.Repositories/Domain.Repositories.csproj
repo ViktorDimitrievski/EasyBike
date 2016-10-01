@@ -60,6 +60,7 @@
     <Compile Include="Database.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -69,6 +70,10 @@
     <ProjectReference Include="..\Domain.Entities\Domain.Entities.csproj">
       <Project>{e08250b5-e0f3-4bfc-be84-5060aef1bedb}</Project>
       <Name>Domain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.Interfaces\Domain.Interfaces.csproj">
+      <Project>{bdefec46-2443-48fb-8630-806dd777af86}</Project>
+      <Name>Domain.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
