@@ -1,0 +1,27 @@
+
+#banner {
+    background-image: url(../../../src/img/bikeBlurVintage.png);
+    background-size: cover;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 664px;
+}
+
+#logoMainPage {
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+
+    &__buttons{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
