@@ -1,0 +1,16 @@
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Application.Implementation.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Application.Implementation.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Repositories.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Domain.Entities.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\EntityFramework.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Repositories.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Domain.Entities.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\EntityFramework.xml
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\obj\Debug\Application.Implementation.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\obj\Debug\Application.Implementation.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\obj\Debug\Application.Implementation.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike\Application.Implementation\bin\Debug\Application.Implementation.dll.config
