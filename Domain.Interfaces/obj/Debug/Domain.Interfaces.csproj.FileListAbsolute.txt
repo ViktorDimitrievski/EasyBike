@@ -1,0 +1,4 @@
+C:\Users\Ivan\Desktop\R&D\EasyBike\Domain.Interfaces\bin\Debug\Domain.Interfaces.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Domain.Interfaces\bin\Debug\Domain.Interfaces.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike\Domain.Interfaces\obj\Debug\Domain.Interfaces.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\Domain.Interfaces\obj\Debug\Domain.Interfaces.pdb
