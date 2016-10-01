@@ -1,34 +1,31 @@
 ﻿using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Domain.Entities;
+using System.Linq;
 
 namespace Domain.Repositories
 {
-    public class CityRepository : ICityRepository
+    public class LocationRepository : ILocationRepository
     {
-        public Database db;
-        public CityRepository(Database _db)
+        private Database db;
+        public LocationRepository(Database _db)
         {
             db = _db;
         }
-
-        public City Create(City item)
+        public Location Create(Location item)
         {
             throw new NotImplementedException();
         }
 
-        public City Edit(City item)
+        public Location Edit(Location item)
         {
             throw new NotImplementedException();
         }
 
-        public List<City> GetAll()
+        public List<Location> GetAll()
         {
-            return db.City.ToList();
+            return db.Location.ToList();
         }
     }
 }

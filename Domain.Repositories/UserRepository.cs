@@ -3,6 +3,8 @@ using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Domain.Repositories
 {
@@ -36,7 +38,6 @@ namespace Domain.Repositories
         public ApplicationUser GetById(string id)
         {
           return db.Users.FirstOrDefault(c => c.Id == id);
-           
         }
     }
 }
