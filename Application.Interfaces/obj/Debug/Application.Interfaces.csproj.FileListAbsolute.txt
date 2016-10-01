@@ -1,5 +1,0 @@
-C:\Users\Ivan\Desktop\RnD\EasyBike\Application.Interfaces\bin\Debug\Application.Interfaces.dll
-C:\Users\Ivan\Desktop\RnD\EasyBike\Application.Interfaces\bin\Debug\Application.Interfaces.pdb
-C:\Users\Ivan\Desktop\RnD\EasyBike\Application.Interfaces\obj\Debug\Application.Interfaces.csprojResolveAssemblyReference.cache
-C:\Users\Ivan\Desktop\RnD\EasyBike\Application.Interfaces\obj\Debug\Application.Interfaces.dll
-C:\Users\Ivan\Desktop\RnD\EasyBike\Application.Interfaces\obj\Debug\Application.Interfaces.pdb
