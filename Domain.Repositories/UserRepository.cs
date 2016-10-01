@@ -8,8 +8,13 @@ using System.Threading.Tasks;
 
 namespace Domain.Repositories
 {
-    public class UserRepository : IBaseRepository<ApplicationUser>, IUserRepository
+    public class UserRepository : IUserRepository
     {
+        private Database db;
+        public UserRepository(Database _db)
+        {
+            db = _db;
+        }
         public ApplicationUser Create(ApplicationUser item)
         {
             throw new NotImplementedException();
@@ -27,12 +32,12 @@ namespace Domain.Repositories
 
         public List<ApplicationUser> GetAll()
         {
-            throw new NotImplementedException();
+            return db.Users.ToList();
         }
 
         public ApplicationUser GetById(string id)
         {
-            throw new NotImplementedException();
+          return db.Users.FirstOrDefault(c => c.Id == id);
         }
     }
 }

@@ -5,11 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Interfaces
+namespace Service.Interfaces
 {
-    public interface IUserRepository : IBaseRepository<ApplicationUser>
+    public interface IUserService
     {
+        List<ApplicationUser> GetUsers();
         ApplicationUser GetById(string id);
-        bool Delete(string id);
+        ApplicationUser Edit(ApplicationUser user);
+
     }
 }
