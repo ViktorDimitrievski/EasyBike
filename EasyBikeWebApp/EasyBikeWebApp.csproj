@@ -283,8 +283,8 @@
       <Project>{e08250b5-e0f3-4bfc-be84-5060aef1bedb}</Project>
       <Name>Domain.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Repositories\Domain.Repositories.csproj">
-      <Project>{f1f47b5f-38a0-4ba6-a19e-9dc1961a17b6}</Project>
+    <ProjectReference Include="..\Domain.Repositories\Domain.Repositories.csproj">
+      <Project>{89116b57-25ba-4367-96b3-7def504a4ab6}</Project>
       <Name>Domain.Repositories</Name>
     </ProjectReference>
   </ItemGroup>

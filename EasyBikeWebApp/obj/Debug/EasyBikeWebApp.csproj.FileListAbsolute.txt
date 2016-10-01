@@ -1,3 +1,4 @@
+C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\obj\Debug\EasyBikeWebApp.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\ApplicationInsights.config
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\roslyn\csc.exe
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -16,6 +17,7 @@ C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\EasyBikeWebApp.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\EasyBikeWebApp.pdb
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Antlr3.Runtime.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Domain.Entities.dll
+C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Domain.Repositories.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\EntityFramework.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\EntityFramework.SqlServer.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.AI.Agent.Intercept.dll
@@ -41,7 +43,6 @@ C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.Owin.Security.Tw
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Newtonsoft.Json.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Owin.dll
-C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Repositories.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\System.Web.Helpers.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\System.Web.Mvc.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\System.Web.Optimization.dll
@@ -51,7 +52,7 @@ C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\System.Web.WebPages.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\System.Web.WebPages.Razor.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\WebGrease.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Domain.Entities.pdb
-C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Repositories.pdb
+C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Domain.Repositories.pdb
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.AI.Web.xml
@@ -81,6 +82,5 @@ C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.Owin.Security.OA
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\obj\Debug\EasyBikeWebApp.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\obj\Debug\EasyBikeWebApp.dll
 C:\Users\Ivan\Desktop\R&D\EasyBike\EasyBikeWebApp\obj\Debug\EasyBikeWebApp.pdb
