@@ -32,7 +32,7 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
-
+*.suo
 *_i.c
 *_p.c
 *_i.h

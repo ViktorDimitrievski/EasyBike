@@ -12,5 +12,8 @@ namespace Domain.Entities
         public string Name { get; set; }
         public double TotalDistance { get; set; }
 
+        public ICollection<Location> Locations { get; set; }
+
+
     }
 }

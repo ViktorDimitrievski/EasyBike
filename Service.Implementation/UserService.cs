@@ -32,8 +32,7 @@ namespace Application.Implementation
 
             return new UserProfileView
             {
-                Name = user.Name,
-                LastName = user.LastName,
+                Name = $"{user.Name} {user.LastName}",
                 Address = user.Address,
                 BirthDate = user.BirthDate.ToString("dd/MM/yyyy")
             };
