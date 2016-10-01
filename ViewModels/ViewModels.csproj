@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BikeItemView.cs" />
+    <Compile Include="BikesView.cs" />
     <Compile Include="UserProfileView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

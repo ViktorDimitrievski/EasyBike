@@ -12,8 +12,7 @@ namespace Domain.Entities
         public int UniqueCode { get; set; }
         public string Model { get; set; }
 
-        public virtual BikeInfo BikeInfo { get; set; }
-        public int BikeInfoId { get; set; }
+        
 
 
     }

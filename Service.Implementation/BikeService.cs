@@ -12,10 +12,11 @@ namespace Application.Implementation
     public class BikeService : IBikeService
     {
         private IBikeRepository bikeRepository;
-
-        public BikeService(IBikeRepository _bikeRepository)
+        private IBikeInfoRepository bikeInfoRepository;
+        public BikeService(IBikeRepository _bikeRepository, IBikeInfoRepository _bikeInfoRepository)
         {
             bikeRepository = _bikeRepository;
+            bikeInfoRepository = _bikeInfoRepository;
         }
 
         public BikesView GetBikes()
@@ -23,6 +24,13 @@ namespace Application.Implementation
             var bikes = bikeRepository.GetAll();
 
             throw new NotImplementedException();
+        }
+
+        public BikesView GetBikesLocation()
+        {
+            var bikes = bikeInfoRepository.GetAll();
+
+            return new BikesView();
         }
     }
 }

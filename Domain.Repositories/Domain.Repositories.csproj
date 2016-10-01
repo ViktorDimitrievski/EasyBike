@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BikeRepository.cs" />
     <Compile Include="CityRepository.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="LocationRepository.cs" />

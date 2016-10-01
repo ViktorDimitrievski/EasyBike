@@ -9,6 +9,7 @@ namespace Service.Interfaces
 {
     public interface IBikeService
     {
-        BikesView GetBikes();
+        BikesView GetBikesLocation();
+
     }
 }
