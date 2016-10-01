@@ -1,0 +1,16 @@
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Domain.Repositories.dll.config
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Domain.Repositories.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Domain.Repositories.pdb
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Domain.Entities.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Domain.Entities.pdb
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\obj\Debug\Domain.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\obj\Debug\Domain.Repositories.dll
+C:\Users\Ivan\Desktop\RnD\EasyBike\Domain.Repositories\obj\Debug\Domain.Repositories.pdb
