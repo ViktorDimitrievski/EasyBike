@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public class Class1
+    public interface IBaseRepository<T>
     {
+        List<T> GetAll();
+        T Create(T item);
+        T Edit(T item);
     }
 }
