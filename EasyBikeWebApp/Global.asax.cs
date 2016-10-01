@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EasyBikeWebApp.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace EasyBikeWebApp
     {
         protected void Application_Start()
         {
+            AutoFacConfig.Load();
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

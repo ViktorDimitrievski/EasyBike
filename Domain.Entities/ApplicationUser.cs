@@ -11,6 +11,14 @@ namespace Domain.Entities
 {
     public class ApplicationUser : IdentityUser
     {
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public Gender Gender { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Address { get; set; }
+        public DateTime LastTimeRent { get; set; }
+
+       
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType

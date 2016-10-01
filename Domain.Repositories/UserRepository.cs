@@ -39,5 +39,10 @@ namespace Domain.Repositories
         {
           return db.Users.FirstOrDefault(c => c.Id == id);
         }
+
+        public ApplicationUser GetByUserName(string name)
+        {
+            return db.Users.FirstOrDefault(c => c.UserName == name);
+        }
     }
 }

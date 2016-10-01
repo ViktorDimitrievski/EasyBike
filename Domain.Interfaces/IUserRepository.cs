@@ -11,5 +11,6 @@ namespace Domain.Interfaces
     {
         ApplicationUser GetById(string id);
         bool Delete(string id);
+        ApplicationUser GetByUserName(string name);
     }
 }

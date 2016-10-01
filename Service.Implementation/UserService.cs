@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
+using ViewModels;
 
 namespace Application.Implementation
 {
@@ -23,9 +24,19 @@ namespace Application.Implementation
             throw new NotImplementedException();
         }
 
-        public ApplicationUser GetById(string id)
+        public ApplicationUser GetById(string id) => userRepository.GetById(id);
+
+        public UserProfileView GetByUserName(string name)
         {
-            return userRepository.GetById(id);
+            var user = userRepository.GetByUserName(name);
+
+            return new UserProfileView
+            {
+                Name = user.Name,
+                LastName = user.LastName,
+                Address = user.Address,
+                BirthDate = user.BirthDate.ToString("dd/MM/yyyy")
+            };
         }
 
         public List<ApplicationUser> GetUsers()

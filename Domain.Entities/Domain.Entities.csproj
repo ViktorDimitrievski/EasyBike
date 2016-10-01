@@ -86,7 +86,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
+    <Compile Include="Bike.cs" />
+    <Compile Include="BikeInfo.cs" />
     <Compile Include="City.cs" />
+    <Compile Include="Gender.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
