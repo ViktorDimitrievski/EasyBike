@@ -83,7 +83,7 @@ a:focus {
     color: #fff;
     background-color: transparent;
     font-size: 25px;
-    !important margin: 20px 0px 0px 5px;
+    margin: 20px 0px 0px 5px;
     position: fixed;
     z-index: 500;
 }

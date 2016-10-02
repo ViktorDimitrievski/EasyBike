@@ -1,9 +1,46 @@
+.header {
+  background: url("../../src/img/header-background.png") no-repeat center center;
+  background-size: cover;
+  padding: 65px 0 300px 0;
+  height: auto;
+}
+
+.inner {
+  margin-top: 100px;
+}
+
+.login-signup-btn {
+  padding: 10px 20px;
+  width: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url("../../dist/fonts/fontawesome-webfont.eot?v=4.6.3");
   src: url("../../dist/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../../dist/fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../../dist/fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../../dist/fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../../dist/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+/* Position and style the close button (top right corner) */
+
+#close-menu {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  font-size: 15px !important;
+  margin-left: 55px;
+  background-color: whitesmoke;
+  outline-color: whitesmoke;
+}
+
+#open-menu {
+  color: whitesmoke;
+  font-size: 15px !important;
 }
 
 /*--------------------
@@ -85,20 +122,6 @@
 .offcanvas a:focus {
   color: #01C8E5;
 }
-
-/* Position and style the close button (top right corner) 
-
-#closebtn {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    color: #01c8e5;
-    font-size: 25px !important;
-    margin-left: 55px;
-    background-color: whitesmoke;
-    outline-color: whitesmoke;
-}
-*/
 
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -204,4 +227,8 @@
 #link-create-account {
   text-align: left;
   float: left;
+}
+
+.features {
+  margin-top: 100px;
 }

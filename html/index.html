@@ -24,7 +24,7 @@
                 <img src="src/img/riste.jpg" alt="logo" id="profile_img">
             </div>
             <div class="col-xs-6">
-                <button class="btn btn-close" id="closebtn"><i class="fa fa-times fa-2x"></i></button>
+                <button class="btn btn-close" id="close-menu"><i class="fa fa-times fa-2x"></i></button>
             </div>
         </div>
         <div class="row">
@@ -55,141 +55,135 @@
             </li>
         </ul>
     </div>
+
     <div id="navTOP">
         <div class="col-sx-12">
-            <button class="btn btn-menu" id="openmenubtn"><i class="fa fa-bars fa-lg"></i></button>
+            <button class="btn btn-menu" id="open-menu"><i class="fa fa-bars fa-l"></i></button>
         </div>
     </div>
     <!------------------------------------------- END OF NAVIGATION BAR AND MENU BUTTON --------------------------------->
 
 
     <!---------------------------------------HEADER SECTION------------------------------------------>
-
-    <header>
-        <div class="container-fluid" id="banner">
-
-            <div id="loadPageImage">
-                <div class="col-xs-12 col-md-6 col-md-offset-3">
-                    <img src="src/img/LogoLoadPage.png" alt="loadPage" id="logoLoadPage">
+      <section class="header">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                   <img src="src/img/logo-middle-header.png" >
                 </div>
-            </div>
-
-            <div id="navTOP">
-                <div class="col-sx-12 col-md-12 col-lg-12">
-                    <button class="btn btn-menu" id="open"><i class="fa fa-bars fa-lg"></i></button>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="#" class="btn btn-raised btn-info login-signup-btn">LOG IN</a>
+                   <a href="#" class="btn btn-raised btn-success login-signup-btn">SIGN UP</a>
                 </div>
+              </div>
             </div>
+     </section>
 
-            <div class="col-xs-12 col-md-12">
-                <img src="src/img/logo-middle-header.png" id="logoMainPage">
-            </div>
-
+    <!------------------------------ WOH ITS WORKS--------------------->
+    <section class="features text-center">
+          <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-12">
-                    <div class="header__buttons">
-                        <a href="login.html" class="btn btn-raised btn-info loginSignUpBtn"> LOG IN </a>
-                        <a href="sign-up.html" class="btn btn-raised btn-success loginSignUpBtn"> SIGN UP </a>
+              <div class="col-md-12">
+                <h1 class="section-heading">HOW IT'S WORKS</h1>
+                <div class="features-wrapper">
+                  <div class="col-md-4 wp2">
+                    <div class="icon">
+                      <img src="src/img/How-It-Works/pick.png" alt="Pick up bike">
                     </div>
+                    <h2>PICK</h2>
+                  </div>
+                  <div class="col-md-4 wp2 delay-05s">
+                    <div class="icon">
+                      <img src="src/img/How-It-Works/ride.png" alt="Pick up bike">
+                      </div>
+                    <h2>RIDE</h2>
+                   
+                  </div>
+                  <div class="col-md-4 wp2 delay-1s">
+                    <div class="icon">
+                      <img src="src/img/How-It-Works/drop.png" alt="Pick up bike">
+                    </div>
+                     <h2>DROP</h2>
+                  </div>
                 </div>
+              </div>
             </div>
-
-            <div class="row">
-                <div class="col-xs-2 col-xs-offset-10">
-                    <a href="rent-me-code.html" id="rentCircleFixed"><i class="fa fa-bicycle fa-2x"></i></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!------------------------------ MAIN SECTION--------------------->
-    <div class="container">
-        <section class="sections">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1 class="block__title">HOW IT'S WORKS</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-4 block">
-                    <img src="src/img/How-It-Works/pick.png" alt="Pick up bike">
-                    <h2 class="block__header">PICK</h2>
-                </div>
-                <div class="col-xs-12 col-md-4 block">
-                    <img src="src/img/How-It-Works/ride.png" alt="Pick up bike">
-                    <h2 class="block__header">RIDE</h2>
-                </div>
-                <div class="col-xs-12 col-md-4 block">
-                    <img src="src/img/How-It-Works/drop.png" alt="Pick up bike">
-                    <h2 class="block__header">DROP</h2>
-                </div>
-            </div>
+          </div>
         </section>
-        <section class="sections">
+        <!----------------------------------WHO IS IT FOR-------------------------------->
+    <section class="features text-center">
+          <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <h1 class="block__title">Who is it for?</h1>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-3 block">
-                    <img src="src/img/Who-Is-It-For/residential.png" width="263px" height="185px">
-                    <h3>Residential</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-3 block">
-                    <img src="src/img/Who-Is-It-For/municipalities.png" width="263px" height="185px">
-                    <h3>Municipalities</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6  col-lg-3 block">
+              <div class="col-md-12">
+                <h1 class="section-heading">WHO IS IT FOR</h1>
+                <div class="features-wrapper">
+                  <div class="col-md-3">
+                    <div class="icon">
+                      <img src="src/img/Who-Is-It-For/residential.png" width="263px" height="185px">
+                    </div>
+                    <h2>Residental</h2>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="icon">
+                      <img src="src/img/Who-Is-It-For/municipalities.png" width="263px" height="185px">
+                      </div>
+                    <h2>Municipalities</h2>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="icon">
                     <img src="src/img/Who-Is-It-For/universities.png" width="263px" height="185px">
-                    <h3>Universities</h3>
+                    </div>
+                       <h2>Universities</h2>
+                  </div>
+                   <div class="col-md-3">
+                    <div class="icon">
+                      <img src="src/img/Who-Is-It-For/corporate.png" width="263px" height="185px">
+                    </div>
+                     <h2>Corporate</h2>
+                  </div>
                 </div>
-                <div class="col-xs-12 col-sm-6  col-lg-3 block">
-                    <img src="src/img/Who-Is-It-For/corporate.png" width="263px" height="185px">
-                    <h3>Corporate</h3>
-                </div>
+              </div>
             </div>
+          </div>
         </section>
-        <section class="sections">
+       
+           <!----------------------------------RIDE SAFETY-------------------------------->
+    <section class="features text-center">
+          <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4">
-                    <h1>Locations</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4 city">
-                    <a href="#"><img src="src/img/city/bitola.jpg" alt="Bitola"></a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4 city">
-                    <a href="#"><img src="src/img/city/skopje.jpg" alt="Skopje"></a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-4 col-xl-4 city">
-                    <a href="#"><img src="src/img/city/ohrid.jpg" alt="Ohrid"></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="sections">
-            <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">
-                <h1>Ride safely</h1>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-lg-6 col-xl-4 rule">
-                    <img src="src/img/follow-the-rules.png">
-                    <p>Yield to pedestrians. Stop at all red lights and stop signs. Ride in the direction of traffic. Use the
+              <div class="col-md-12">
+                <h1 class="section-heading">RIDE SAFETY</h1>
+                <div class="features-wrapper">
+                  <div class="col-md-4">
+                    <div class="icon">
+                     <img src="src/img/follow-the-rules.png">
+                    </div>
+                     <p>Yield to pedestrians. Stop at all red lights and stop signs. Ride in the direction of traffic. Use the
                         grip bell to signal your presence. Do not wear more than one earphone while riding.</p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-lg-6 col-xl-4 rule">
-                    <img src="src/img/tips-for-turns.png">
-                    <p>Use hand signals to let drivers and other cyclists know your intention to turn or to stop. Don’t turn
+                  </div>
+                  <div class="col-md-4">
+                    <div class="icon">
+                      <img src="src/img/tips-for-turns.png">
+                      </div>
+                     <p>Use hand signals to let drivers and other cyclists know your intention to turn or to stop. Don’t turn
                         or change lanes without knowing the position of the cars and bikes around you.</p>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-lg-6 col-xl-4 rule">
-                    <img src="src/img/whear-helmet.png">
-                    <p>Wear a helmet whenever you ride. Always buckle the strap. Replace your helmet after any crash and whenever
+                  </div>
+                   <div class="col-md-4">
+                    <div class="icon">
+                      <img src="src/img/whear-helmet.png">
+                    </div>
+                      <p>Wear a helmet whenever you ride. Always buckle the strap. Replace your helmet after any crash and whenever
                         you see signs of damage. Avoid these common helmet mistakes</p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </section>
+      
+       
     </div>
     <!-----------------------------FOOTER---------------------------------->
     <footer class="footer">

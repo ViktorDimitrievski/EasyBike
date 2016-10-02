@@ -1,7 +1,6 @@
 /*--------------------
 2. Navbar
 --------------------*/
-
 #navTOP {
     background-color: #292c2f;
     left: 0px;
@@ -10,10 +9,7 @@
     position: fixed;
     z-index: 1000;
 }
-
-
 /* The side navigation menu */
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -25,16 +21,12 @@
     z-index: 5000;
     /*        transition: 0.5s; */
 }
-
 #user_meil {
     margin-top:10px;
     margin-left: 20px;
     font-size: 15px;
 }
-
-
 /* The navigation menu links */
-
 .sidenav li a {
     font-family: sans-serif;
     padding: 5px 5px 5px 8px;
@@ -48,7 +40,6 @@
 
 
 /*border bottom for better disign*/
-
 .sidenav li {
     border-bottom: 1px solid rgba(64, 64, 64, 0.07);
 }
@@ -61,7 +52,6 @@
 
 
 /*icons in nav menu (home, about , service.....)*/
-
 .sidenav ul li a i {
     margin-right: 15px;
     font-size: 20px;
@@ -76,26 +66,10 @@
 
 
 /* When you mouse over the navigation links, change their color */
-
 .sidenav a:hover,
 .offcanvas a:focus {
     color: #01C8E5;
 }
-
-
-/* Position and style the close button (top right corner) 
-
-#closebtn {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    color: #01c8e5;
-    font-size: 25px !important;
-    margin-left: 55px;
-    background-color: whitesmoke;
-    outline-color: whitesmoke;
-}
-*/
 
 @media screen and (max-height: 450px) {
     .sidenav {
