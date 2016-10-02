@@ -6,100 +6,6 @@
   font-style: normal;
 }
 
-a {
-  color: #01C8E5;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #009EA1;
-  text-decoration: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.btn {
-  margin: 0;
-  vertical-align: middle;
-  border: 0;
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-  border-radius: 0px;
-  text-shadow: none;
-  box-shadow: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.loginSignUpBtn {
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-}
-
-.btn-success {
-  color: #fff;
-  background-color: #3AAE68;
-}
-
-.btn-success:hover {
-  color: #3AAE68;
-  background-color: #fff;
-  outline: #3AAE68 solid 3px;
-}
-
-.btn-menu {
-  color: #fff !important;
-  background-color: transparent;
-  font-size: 20px;
-  position: fixed;
-  z-index: 500;
-}
-
-.btn-close {
-  margin-top: 12px;
-  margin-left: 30px;
-  background-color: whitesmoke;
-  outline-color: whitesmoke;
-  color: #01c8e5;
-}
-
-.btn-close:hover {
-  background: none !important;
-  color: #01c8e5;
-}
-
-.btn-plus {
-  color: #fff;
-  background-color: #3AAE68;
-  width: 70px;
-  height: 50px;
-}
-
-.btn-minus {
-  color: #fff;
-  background-color: red;
-  width: 70px;
-  height: 50px;
-}
-
-.btn-login {
-  color: #fff;
-  background-color: #01c8e5;
-  outline: #01c8e5 solid 3px;
-  -webkit-transition: all 0.3;
-  transition: all 0.3;
-}
-
-.btn-login:hover {
-  color: #01c8e5;
-  background-color: #fff;
-  outline: #01c8e5 solid 3px;
-}
-
 /*--------------------
 2. Navbar
 --------------------*/
@@ -212,38 +118,90 @@ a:focus {
   margin-left: 20px;
 }
 
-#banner {
-  background-image: url("../../src/img/bikeBlurVintage.png");
-  background-size: cover;
-  background-position: 50% 25%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
   width: 100%;
-  height: 664px;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  margin-top: 80px;
+  position: static;
+  bottom: 0;
 }
 
-#logoMainPage {
-  margin-top: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.footer .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
 }
 
-.header__buttons {
+/* Footer links */
+
+.footer p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer p.footer-links a:hover {
+  color: #8f9296;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.footer .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #01C8E5;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 35px;
+  margin-left: 3px;
 }
 
-.block {
+.footer .footer-right a:hover {
+  color: white;
+}
+
+.form-def {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  margin-top: 25%;
+  margin-bottom: 25% !important;
+}
+
+.form-def__title {
   text-align: center;
 }
 
-.block__title {
-  margin-bottom: 20px;
-  text-transform: uppercase;
+#link-forgot-password {
+  text-align: right;
+  float: right;
 }
 
-.block__image {
-  margin-left: 10%;
+#link-create-account {
+  text-align: left;
+  float: left;
 }

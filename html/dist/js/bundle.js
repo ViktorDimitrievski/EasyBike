@@ -1,3 +1,4 @@
+$.material.init()
 //main function
 $(function () {
     //load first time logo
