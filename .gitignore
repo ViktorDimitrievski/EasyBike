@@ -130,6 +130,7 @@ publish/
 *.pubxml
 
 # NuGet Packages Directory
+
 packages/*
 ## TODO: If the tool you use requires repositories.config
 ## uncomment the next line
@@ -183,3 +184,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+
+node_modules/
