@@ -11,31 +11,28 @@
     <meta name="keywords" content="bike,rental,skopje,bitola,ohrid,codefest">
     <meta name="author" content="CODEFENCERS">
     
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/bundle-libraries.css">
+    <link rel="stylesheet" href="dist/css/bundle.css">
 </head>
 
 <body>
     <!------------------------------------NAVBAR-------------------------------------------->
     <div id="mySidenav" class="sidenav">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6">
-                    <img src="img/riste.jpg" alt="logo" id="profile_img">
-                </div>
-                <div class="col-xs-6">
-                    <button class="btn btn-close" id="closebtn"><i class="fa fa-times fa-3x"></i></button>
-                </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <img src="src/img/riste.jpg" alt="logo" id="profile_img">
             </div>
-            <div class="row">
-                <p id="user_meil">codefancers@easybike.com</p>
-                <hr>
+            <div class="col-xs-6">
+                <button class="btn btn-close" id="closebtn"><i class="fa fa-times fa-2x"></i></button>
             </div>
+        </div>
+        <div class="row">
+            <p id="user_meil">codefancers@easybike.com</p>
+            <hr>
         </div>
         <ul>
             <li>
-                <a href="index.html"><i class="fa fa-home"></i>Home</a>
+                <a href="Index.html"><i class="fa fa-home"></i>Home</a>
             </li>
             <li>
                 <a href="login.html"><i class="fa fa-sign-in"></i>Login</a>
@@ -66,11 +63,25 @@
 <!------------------------------------------- END OF NAVIGATION BAR AND MENU BUTTON --------------------------------->
     <div class="container main">
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 col-md-offset-3 col-lg-offset-4 col-xl-offset-4">
-                <h4 class="login-header">Enter BIKE CODE</h4>
-                <input id="RentMeCode" class="form-control" name="RentMeCode" placeholder="# # # #" type="number" value="" aria-describedby="sizing-addon1">
-                <br>
-                <button type="submit" class="btn btn-success btn-block">CONTINUE</button>
+            <div class="col-xs-12 col-md-6 col-md-offset-3 no-padding">
+                <div class="well form-def">
+                    <form>
+                       <legend class="form-def__title">
+                            <h2>Enter BIKE CODE</h2>
+                        </legend>
+                        <fieldset class="form-def__body">
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="RentMeCode"># # # #</label>
+                                <input class="form-control" id="RentMeCode" name="RentMeCode" type="number" value="" aria-describedby="sizing-addon1">
+                                <p class="help-block">You should really write something here</p>
+                            </div>
+                            <!--<input id="RentMeCode" class="form-control" name="RentMeCode" placeholder="# # # #" type="number" value="" aria-describedby="sizing-addon1">-->
+                        </fieldset>
+                        <div class="form-def__footer">
+                        <button type="submit" class="btn btn-raised btn-success btn-block btn-lg">Continue</button>
+                        </div> 
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -80,7 +91,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="footer-left col-sx-12 col-md-6">
-                    <p class="footer-links">
+                    <div class="footer-links">
                         <a href="index.html">Home</a> |
                         <a href="login.html">Log In</a> |
                         <a href="profile.html">Profile</a> |
@@ -88,7 +99,7 @@
                         <a href="rent-me-code.html">Rent BIke</a> |
                         <a href="Service.html">Services</a> |
                         <a href="aboutus.html">About</a>
-                    </p>
+                    </div>
 
                     <p>SEDC TEAM &copy 2016 <span>Code by: CodeFancers </span></p>
                 </div>
@@ -101,10 +112,10 @@
         </div>
     </footer>
 
-
-
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!--JQUERY/BOOTSTRAP-->
+    <script src="dist/js/bundle.libraries.js"></script>
+    <script src="dist/js/bundle.js"></script>
+    <!--Main Script-->
     <script src="js/main.js"></script>
 </body>
 

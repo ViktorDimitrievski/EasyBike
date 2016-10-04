@@ -1,13 +1,23 @@
 .form-def {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-    padding-top: 30px !important;
-    padding-bottom: 50px !important;
-
-    margin-top: 25%;
-    margin-bottom: 25% !important;
+    margin-top: 220px;
+    margin-bottom: 184px !important;
+    padding: 0 !important;
     &__title {
         text-align: center;
+        background: #009EA1;
+        padding-bottom: 10px;
+        padding-top: 1px;
+        color: #fff;
+        h4 {
+            text-decoration: underline;
+        }
+    }
+    &__body {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    &__footer {
+        padding: 10px 80px 40px;
     }
 }
 
@@ -19,4 +29,37 @@
 #link-create-account {
     text-align: left;
     float: left;
+}
+.form__sign {
+    margin-top: 70px;
+    margin-bottom: 20px !important;
+}
+#RentMeCode,
+input[type="number"]::placeholder {
+    font-size: 22px;
+    letter-spacing: 5px;
+    color: #007D7A;
+    height: 45px;
+    text-align: center;
+}
+
+// Responsive style
+
+@media only screen and (max-width: 767px) {
+    .no-padding {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .form-def {
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+        padding: 0 !important;
+        &__body {
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+        }
+        &__footer {
+        padding: 10px 5px 40px;
+        }
+    }
 }

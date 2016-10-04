@@ -18,24 +18,22 @@
 
 <body>
     <!------------------------------------NAVBAR-------------------------------------------->
-    <!--<div id="mySidenav" class="sidenav">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6">
-                    <img src="img/riste.jpg" alt="logo" id="profile_img">
-                </div>
-                <div class="col-xs-6">
-                    <button class="btn btn-close" id="closebtn"><i class="fa fa-times fa-3x"></i></button>
-                </div>
+     <div id="mySidenav" class="sidenav">
+        <div class="row">
+            <div class="col-xs-6">
+                <img src="src/img/riste.jpg" alt="logo" id="profile_img">
             </div>
-            <div class="row">
-                <p id="user_meil">codefancers@easybike.com</p>
-                <hr>
+            <div class="col-xs-6">
+                <button class="btn btn-close" id="closebtn"><i class="fa fa-times fa-2x"></i></button>
             </div>
+        </div>
+        <div class="row">
+            <p id="user_meil">codefancers@easybike.com</p>
+            <hr>
         </div>
         <ul>
             <li>
-                <a href="index.html"><i class="fa fa-home"></i>Home</a>
+                <a href="Index.html"><i class="fa fa-home"></i>Home</a>
             </li>
             <li>
                 <a href="login.html"><i class="fa fa-sign-in"></i>Login</a>
@@ -62,19 +60,17 @@
         <div class="col-sx-12 col-md-12 col-lg-12">
             <button class="btn btn-menu" id="open"><i class="fa fa-bars fa-lg"></i></button>
         </div>
-    </div>-->
+    </div>
     <!------------------------------------------- END OF NAVIGATION BAR AND MENU BUTTON --------------------------------->
-
-
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-md-offset-3">
+            <div class="col-xs-12 col-md-6 col-md-offset-3 no-padding">
                 <div class="well form-def">
                     <form>
-                        <fieldset>
-                            <legend class="form-def__title">
-                                <h2>Log in</h2>
-                            </legend>
+                        <legend class="form-def__title">
+                            <h2>Log in</h2>
+                        </legend>
+                        <fieldset class="form-def__body">
                             <div class="form-group label-floating">
                                 <label class="control-label" for="focusedInput2">Enter your email</label>
                                 <input class="form-control" id="focusedInput2" type="email">
@@ -87,13 +83,11 @@
                                 <p class="help-block">You should really write something here</p>
                             </div>
                             
-                            <div class="form-group">
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-raised btn-success btn-block btn-lg">Log in</button>
-                                </div>
-                            </div>
                         </fieldset>
-                        <div class="login-footer">
+                        <div class="form-def__footer">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-raised btn-success btn-block btn-lg">Log in</button>
+                            </div>
                             <div class="col-xs-6">
                                 <a id="link-create-account" href="sign-up.html">Create account</a>
                             </div>
@@ -110,8 +104,8 @@
     <footer class="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="footer-left col-sx-12 col-md-6">
-                    <p class="footer-links">
+                <div class="footer-left col-xs-12 col-md-6">
+                    <div class="footer-links">
                         <a href="index.html">Home</a> |
                         <a href="login.html">Log In</a> |
                         <a href="profile.html">Profile</a> |
@@ -119,11 +113,11 @@
                         <a href="rent-me-code.html">Rent BIke</a> |
                         <a href="Service.html">Services</a> |
                         <a href="aboutus.html">About</a>
-                    </p>
+                    </div>
 
                     <p>SEDC TEAM &copy 2016 <span>Code by: CodeFancers </span></p>
                 </div>
-                <div class="footer-right col-sx-12 col-md-6">
+                <div class="footer-right col-xs-12 col-md-6">
                     <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
                     <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
 
