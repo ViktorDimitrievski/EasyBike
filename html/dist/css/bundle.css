@@ -1,3 +1,23 @@
+.header {
+  background: url("../../src/img/header-background.png") no-repeat center center;
+  background-size: cover;
+  padding: 65px 0 300px 0;
+  height: auto;
+}
+
+.inner {
+  margin-top: 100px;
+}
+
+.login-signup-btn {
+  padding: 10px 20px;
+  width: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url("../../dist/fonts/fontawesome-webfont.eot?v=4.6.3");
@@ -6,8 +26,21 @@
   font-style: normal;
 }
 
-.btn {
-  border-radius: 0;
+/* Position and style the close button (top right corner) */
+
+#close-menu {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  font-size: 15px !important;
+  margin-left: 55px;
+  background-color: whitesmoke;
+  outline-color: whitesmoke;
+}
+
+#open-menu {
+  color: whitesmoke;
+  font-size: 15px !important;
 }
 
 /*--------------------
@@ -90,20 +123,6 @@
   color: #01C8E5;
 }
 
-/* Position and style the close button (top right corner) 
-
-#closebtn {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    color: #01c8e5;
-    font-size: 25px !important;
-    margin-left: 55px;
-    background-color: whitesmoke;
-    outline-color: whitesmoke;
-}
-*/
-
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -130,17 +149,20 @@
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
+  margin-top: 80px;
   position: static;
   bottom: 0;
 }
 
-.footer .footer-left {
+.footer .footer-left p {
   color: #8f9296;
   font-size: 14px;
   margin: 0;
 }
 
-.footer .footer-links {
+/* Footer links */
+
+.footer p.footer-links {
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
@@ -148,14 +170,14 @@
   padding: 0;
 }
 
-.footer .footer-links a {
+.footer p.footer-links a {
   display: inline-block;
   line-height: 1.8;
   text-decoration: none;
   color: inherit;
 }
 
-.footer .footer-links a:hover {
+.footer p.footer-links a:hover {
   color: #8f9296;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
@@ -184,41 +206,17 @@
   color: white;
 }
 
-@media only screen and (max-width: 767px) {
-  .footer {
-    padding: 45px 5px;
-  }
-
-  .footer .footer-links {
-    font-size: 17px;
-  }
-}
-
 .form-def {
-  margin-top: 220px;
-  margin-bottom: 184px !important;
-  padding: 0 !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  margin-top: 25%;
+  margin-bottom: 25% !important;
 }
 
 .form-def__title {
   text-align: center;
-  background: #009EA1;
-  padding-bottom: 10px;
-  padding-top: 1px;
-  color: #fff;
-}
-
-.form-def__title h4 {
-  text-decoration: underline;
-}
-
-.form-def__body {
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-}
-
-.form-def__footer {
-  padding: 10px 80px 40px;
 }
 
 #link-forgot-password {
@@ -231,101 +229,6 @@
   float: left;
 }
 
-.form__sign {
-  margin-top: 70px;
-  margin-bottom: 20px !important;
-}
-
-#RentMeCode,
-input[type="number"]::-webkit-input-placeholder {
-  font-size: 22px;
-  letter-spacing: 5px;
-  color: #007D7A;
-  height: 45px;
-  text-align: center;
-}
-
-#RentMeCode,
-input[type="number"]::-moz-placeholder {
-  font-size: 22px;
-  letter-spacing: 5px;
-  color: #007D7A;
-  height: 45px;
-  text-align: center;
-}
-
-#RentMeCode,
-input[type="number"]:-ms-input-placeholder {
-  font-size: 22px;
-  letter-spacing: 5px;
-  color: #007D7A;
-  height: 45px;
-  text-align: center;
-}
-
-#RentMeCode,
-input[type="number"]::placeholder {
-  font-size: 22px;
-  letter-spacing: 5px;
-  color: #007D7A;
-  height: 45px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 767px) {
-  .no-padding {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-
-  .form-def {
-    margin-top: 50px;
-    margin-bottom: 0px !important;
-    padding: 0 !important;
-  }
-
-  .form-def__body {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-  }
-
-  .form-def__footer {
-    padding: 10px 5px 40px;
-  }
-}
-
-.block {
-  text-align: center;
-}
-
-.block__title {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.block__image {
-  margin-left: 10%;
-}
-
-#banner {
-  background-image: url("../../../src/img/bikeBlurVintage.png");
-  background-size: cover;
-  background-position: 50% 25%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 664px;
-}
-
-#logoMainPage {
-  margin-top: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header__buttons {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.features {
+  margin-top: 100px;
 }

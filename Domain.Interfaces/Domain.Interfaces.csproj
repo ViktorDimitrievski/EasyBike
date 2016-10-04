@@ -44,6 +44,7 @@
     <Compile Include="IBikeRepository.cs" />
     <Compile Include="ICityRepository.cs" />
     <Compile Include="ILocationRepository.cs" />
+    <Compile Include="IBikeInfoRepository.cs" />
     <Compile Include="IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
