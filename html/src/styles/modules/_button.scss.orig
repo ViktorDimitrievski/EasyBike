@@ -1,0 +1,23 @@
+.btn {
+<<<<<<< HEAD
+    border-radius: 0;
+=======
+
+}
+
+/* Position and style the close button (top right corner) */
+#close-menu {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    font-size: 15px !important;
+    margin-left: 55px;
+    background-color: whitesmoke;
+    outline-color: whitesmoke;
+}
+
+#open-menu {
+    color: whitesmoke;
+      font-size: 15px !important;
+>>>>>>> 192276cb52d2498b75b3c531def76a6292fdff7e
+}
